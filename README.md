@@ -1,5 +1,5 @@
 # File Extension Finder
-Scans C Drive for a specific file type and saves it in a .csv
+Scans any specific drive for a specific file type and saves it in a .csv
 
 ### Only for Windows
 
