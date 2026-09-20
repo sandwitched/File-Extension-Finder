@@ -36,7 +36,7 @@ if user_input is None:
 #auto naming csv file
 def auto_name():
     clean_drive = drive_letter.replace(":", "")
-    name = f"{user_input}_{clean_drive}Drive_Scan_on_{today}"
+    name = f"{user_input}_{clean_drive}_Drive_Scan_on_{today}"
     return name
 
 csv_name = simpledialog.askstring("File Extension Finder", "What would you like to name the spreadsheet file? (e.g., 'my_files.csv') or A to auto name")
